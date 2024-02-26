@@ -1,0 +1,36 @@
+Python 100!
+
+Day 1 
+
+(errors are to be searched in google. stackoverflow is a good website for Q&A related to coding.)
+
+ 1) print()= helps you print the desired output.(its a keyword)
+             To use less charcters and print different statements use \n in between the statements in order to get output on the next line.
+             eg. print("Butter Chicken\nButter Paneer")
+             
+             adding unnecesseary spaces can give indentation error. 
+
+ 2)Strings =a) A string can be defined in single or double qoutes and contains of text. 
+             eg. print('She said: "Hello" and then left.') there the single quote is used to define a string and double quote is used to highlight the word "Hello" in that string.
+              You can also use the above vice versa.
+             eg. print("She said: 'Hello' and then left.")
+              you can also use backslash for highlighting a word or a sentence
+             eg. print("She said: \"Hello\" and then left.")       
+
+            b) Concatination of strings can be done using a plus sign (ie:- +) in between the strings in order to get a result.
+              eg. print("Hello" + "Piyush") but this will give you HelloPiyush as the output. In order to get the output as Hello Piyush you have to use space after Hello or before Piyush
+                  or concatinate a space ie:- print("Hello" + " " + "Piyush")  
+               only strings can be concatinated not integers.
+ 
+
+ 3) input() = It is used to add a input for  the user in order to pass in back in the fuction {eg. input("What is your name? ")}
+              when you pass a input function make sure to pass a promte in it or else it will give you an error {eg. input() will give you an error because no promte is passed in it}
+    len is used to calculate the total number of charcters in a string.
+    you can pass a string and calculate its length and the print it {ie. str=len(input()) this will calculate the length of given input and result is printed the length.}or you can directly
+    pass the len function in the print fuction to get the result {ie. print(len(input())) and whatever input you provide you'll get the len of the provided input string}
+
+ 4) Python variables = The variable is assigned to a string or and integer funtion in order to call it further in code more efficiently. also a variable's name shouldn't start with a 
+                       number{eg. 1num=2}.If you wanna add a variable name that is descriptive of lengthy you can simply use underscore for the same{eg. ready_player_1}
+                       a varible passed should be called with the same name through out.{eg. player1 ="Jack" print(player1) it can't be print(player2)}
+                       
+     
