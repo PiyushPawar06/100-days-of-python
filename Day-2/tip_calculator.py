@@ -14,4 +14,5 @@ total_tip = float(total_bill*(tip/100))
 new_total_bill = total_tip + total_bill
 people = int(input(f"Total number of people? "))
 contri = round(new_total_bill/people,2)
+contri = "{:.2f}".format(contri)
 print(f"The contri per person is:{contri}")

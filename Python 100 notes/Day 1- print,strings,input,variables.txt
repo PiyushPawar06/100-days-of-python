@@ -15,7 +15,7 @@ Day 1
               You can also use the above vice versa.
              eg. print("She said: 'Hello' and then left.")
               you can also use backslash for highlighting a word or a sentence
-             eg. print("She said: \"Hello\" and then left.")       
+             eg. print("She said: \"Hello\ and then left.")       
 
             b) Concatination of strings can be done using a plus sign (ie:- +) in between the strings in order to get a result.
               eg. print("Hello" + "Piyush") but this will give you HelloPiyush as the output. In order to get the output as Hello Piyush you have to use space after Hello or before Piyush

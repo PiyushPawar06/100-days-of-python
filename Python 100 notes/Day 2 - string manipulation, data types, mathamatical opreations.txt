@@ -1,0 +1,24 @@
+Day 2 
+
+Primative data types :- 
+
+ 1) Strings - subscripting - [] for to pull out a particullar character {eg. print("Piyush"[4]) will give an output as u} 
+
+ 2) Integers - when working with integers you write the numbers directly in print statment. Use underscore to define lakhs,thousands etc. 23_456 will be considered as 23456 but the 
+               underscore will help us understand its 23,456.
+
+ 3)float:- when there is a point used in  an integer it is a float data type as the point can float around in the integer at any standpoint{eg. 123.45 or 12.456}
+ 
+ 4)Boolean:- the values are either True or False. this data type is used when there is a condition we get either values as result. note that True and False are the keywords and should
+             start with a captial letter.
+
+ Typecasting :- a process where you can convert a data type in another data type. type() is used to know the type of the data.  
+ 
+ Mathamatical opreations :- + for addition , - for subtraction , * for multiplication , / for division, ** for power of a number.in divison the result is always a float number. 
+                            in python the highest priority in a mathamatical opreation is given to a (),**,* and /,+ and - where for *,/,+,- the leftmost gets the priority.(PEMDAS)
+                            the round() function is used to round of the result after a mathamatical opreation.if you want to round a number till its secon decimal you code 
+                            print(round(8/3,2)) and the answer will be 2.67 rather then 3. // can be used as a flow divison where you get a integer as a result of the divison rather then a 
+                            float.
+
+ Number manipulation:- you can use /= you can divide a number by itself after a regular divison.{eg. r=4/2 r/=2 print(r) you will get result as 1}. it works for other operations too. 
+                       f-string is used to concatinate different types of data type into a string without using typecasting method.
