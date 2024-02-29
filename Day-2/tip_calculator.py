@@ -8,11 +8,14 @@
 #Write your code below this line 👇
 
 print("Welcome to the tip calculator!")
-total_bill = float(input(f"What is your total bill? $"))
-tip = int(input(f"How much percent tip you wanna add?10,12,15: "))
+total_bill = float(input(f"What is your total bill? \""))
+tip = float(input(f"How much percent tip you wanna add?10.69,12.69,15.69: "))
 total_tip = float(total_bill*(tip/100))
 new_total_bill = total_tip + total_bill
 people = int(input(f"Total number of people? "))
-contri = round(new_total_bill/people,2)
-contri = "{:.2f}".format(contri)
+ #round function doesn't consider 0 as the last vaule in decimals.
+contri = new_total_bill/people
+print(f"The contri per person is:{contri}")
+#format is used to define the exact decimal places.
+contri = "{:.3f}".format(contri) 
 print(f"The contri per person is:{contri}")
