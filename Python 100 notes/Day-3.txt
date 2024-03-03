@@ -1,0 +1,11 @@
+
+ Day 3
+
+
+ Control flow statements:- 
+
+ 1) if-else :- this is used when there is a condition and the output will be either of them. the syntax and indentattion is realy important in python. if and else should be written in same
+               indentated passion or else it will throw an error. 
+              
+               comparision opreators are > , < , >= , <= defining greater then,lesser then,greater then equal to and lesser then equal to. != is used to express not equal to sign. == is 
+               used for exact/precise value.
