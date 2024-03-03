@@ -29,6 +29,7 @@ print("Welcome to  the Treasure Island.\nYour mission is to find the treasure!")
 direction =input("Let's start.Do you wanna go left or right? Type: ").lower()
 
 if direction =="left" :
+    
     print("You reached the Blood River.")
 
     decision = input("Will you wait for the boat or swim? Type: ").lower()
@@ -41,7 +42,8 @@ if direction =="left" :
             print("You opened the door to bear's cave!You Lose.")
       elif final_call == "2" :
             print("You Went back to start.Start again!")
-            start_again = 0
+            # start_again = 0
+
       elif final_call == "4" :
             print("You chose the right door! The treasures' your! \n!!Congratulations!!")  
     else :

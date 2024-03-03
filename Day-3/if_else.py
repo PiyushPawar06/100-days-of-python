@@ -3,19 +3,20 @@
 #if you are above 120cm tall you can enjoy the ride.  
 
 print("Welcome to the rollercoaster ride!!!")
-'''
-height = int(input("Please enter your height in cm: "))
-if height >= 120 : 
+
+'''height = int(input("Please enter your height in cm: "))
+age = int(input("Please enter your age: "))
+if height >= 120 and age >=18 : 
     print("You can ride the Roller-Coaster!")
     #nested if-else loop
-    age = int(input("Please enter your age: "))
-    if age <= 18 :
-        print("Please pay $7.")
-    else:
-        print("Please pay $12.")    
+  #  age = int(input("Please enter your age: "))
+    # if age <= 18 :
+    #     print("Please pay $7.")
+    # else:
+    #     print("Please pay $12.")    sg
 else:
-    print("Sorry you can't ride the Roller-coaster.")
-'''
+    print("Sorry you can't ride the Roller-coaster.")'''
+
 #elif in if-else statements 
 '''
 height = int(input("Please enter your height in cm: "))
@@ -50,7 +51,7 @@ if height > 120:
         bill = 7
         print("Your ticket price is $7.") 
    #logical opreators.
-    elif age >= 45 and age <= 55:
+    elif  age >= 45 and age <= 55:
         print("Today the ride is free for people between the age 45-50.Enjoy!")   
     else :
         bill = 12
@@ -62,3 +63,5 @@ if height > 120:
     print(f"Your total bill is ${bill}.") 
 else:
     print("Sorry, you can't ride the roller coaster.")    
+
+    
