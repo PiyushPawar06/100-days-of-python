@@ -1,0 +1,40 @@
+
+ Day 3
+
+
+ Control flow statements:- 
+
+ 1) if-else :- this is used when there is a condition and the output will be either of them. the syntax and indentattion is realy important in python. if and else should be written in same
+               indentated passion or else it will throw an error. 
+              
+               comparision opreators are > , < , >= , <= defining greater then,lesser then,greater then equal to and lesser then equal to. != is used to express not equal to sign. == is 
+               used for exact/precise value.
+ 
+ 2) Nested if-else loop :- you can pass another if-else statement into a exisiting if-else statement. but  the condition  of first and second if statement should true and and for else to 
+                           be true the second if statement should be false.
+ 
+ 3) elif :- this is used when you want to use a particular range of variable and it can be used as many times reuqired in  an if-else loop. {eg. range of age from 2 to 10 can paly at the 
+            swing.
+    if height >= 120 :
+        print("You can ride the roller coaster!!!") 
+        age = int(input("Please enter your age: "))
+        if age <=5 :
+           print("Sorry you can ride the roller coaster.")
+        elif age <= 12:
+           print("Please pay $5.")
+        elif age<=18 :
+           print("Please pay $7.")    
+        else :
+           print("Please pay $12.")    
+    else : 
+        print("Sorry you can't ride the roller coaster.")}
+
+ 4) multiple if statements :- the stand alone if statemnet can be added in an if-else loop but the condition is that you have to indent that stand alone if statement with the if-else 
+                              statement that it is present in.{eg. if:
+                        (this is the stand alone if statement)---->if:
+                                                                   else: } and also all related to  that stand alone if statement should be typed in the same indented line of code.
+
+ 5) Logical opreators : there are 3 types of logical operator. 
+                         1)and :- if both conditions are true the statement is true.
+                         2)or:- if either one or both conditions are true the statement is true.its only when both conditions are false the statement is flase.
+                         3)not:- if the condition is true it helps making it false and vice versa by adding the word ' not'. 
