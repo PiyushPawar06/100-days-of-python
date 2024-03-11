@@ -1,0 +1,16 @@
+ 
+
+  Randomisation
+
+
+  random module :- this is a module used in python for randomisation/generating random numbers per say.randint is the keyword used for genrating a random whole number. 
+                   {eg. ran_int = random.randint(1,10) where (1,10) reprensents the range of numbers. } a moodule is basically a part for a larger program which can be called through 
+                   out the project when required. for floating numbers used the funtion random.random but it won't give the last whole number of the range provided.while genrating a random
+                   float number your can only generate from 0-0.99999..... as the random funtion in float doesn't take any argument.but when required to increase the range you have to 
+                   multiple that varible with the desired range say multiply by 5 to increase the from 0-o.999.... to 0-4.9999... 
+
+
+ python list:- it is used to store a group of info which may or maynot be co related in a single variable in  a form of tuple, meaning a list of some items.{eg. ["apple","cherry","peach"]}
+               you can also determine the order of the list where apple is first and peach is 3rd and the list starts with 0 as its index which makes apple as 0th position here. if you
+               mention the index as negative ie:-1 or -2 or -whatever the counting of the list starts from the end where -1 would give peach in this case.to add a new item use append which
+               will add an item at the end of the list
