@@ -13,4 +13,6 @@
  python list:- it is used to store a group of info which may or maynot be co related in a single variable in  a form of tuple, meaning a list of some items.{eg. ["apple","cherry","peach"]}
                you can also determine the order of the list where apple is first and peach is 3rd and the list starts with 0 as its index which makes apple as 0th position here. if you
                mention the index as negative ie:-1 or -2 or -whatever the counting of the list starts from the end where -1 would give peach in this case.to add a new item use append which
-               will add an item at the end of the list
+               will add an item at the end of the list.
+
+ nested list :- here you can add to two or more lists in one and also can be used to bifarcate among the list.
