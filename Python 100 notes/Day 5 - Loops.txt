@@ -4,3 +4,6 @@
 
 
  1)for loop:- it is used in lists in order to call or describe the items of the list.
+ 
+ 2)Range in for loop:- it is used to know all the items in the specified range.in order to step for a particular item to another in  the list you have to specify how many steps you wanna
+                       step.
