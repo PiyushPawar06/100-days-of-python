@@ -1,0 +1,11 @@
+
+
+ 
+  
+ def funtion:-it is used for Creating our on funtion in python.funtion is different from variable because it has () with it.funtions can be used to bundle the set of pre defined funtions or 
+              in simple words commands in them.
+
+
+
+ while loop:- for a provided condition to be true the loop will continue to run and when the condition becomes false the loop breaks.if the condition is forever true the while loop does not
+              stop and becomes an infinite loop.
