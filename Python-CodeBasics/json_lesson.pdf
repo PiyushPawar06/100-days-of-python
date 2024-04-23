@@ -1,0 +1,4 @@
+# Json stands for Java script object notation. 
+# It is similar to xml files but is lightweight and uses a lot less volume as it uses key-value pairs and xml uses opening and closing tags. 
+# it is a data exchange format.
+# it is used to exchange data ie:- for example I can code in python convert the file into json format and use that data into c++  
