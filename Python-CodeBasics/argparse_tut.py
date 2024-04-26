@@ -1,6 +1,7 @@
 # Command line arguments 
 # there are two types of arguments positional and optional 
 # argparse is an module
+# argument is the actual value that is passed in the funtion where as parameters are just a placeholder for that arguments 
 import argparse
 
 if __name__ == "__main__" :
