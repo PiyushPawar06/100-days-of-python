@@ -11,3 +11,5 @@ fact = 1
 for number in range(1,user_number+1):
     fact *= number
     print(fact)    
+
+    print(fact)
